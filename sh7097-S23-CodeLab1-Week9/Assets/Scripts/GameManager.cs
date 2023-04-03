@@ -39,7 +39,10 @@ public class GameManager : MonoBehaviour
                     cardList.Add(CardsScriptableObjects);
                     
                 }
-            }
+            }//trying to make grab bag style random card selection - 
+            //select three cards, every time a card is selected, delete it from the lsit so it can't be listed again,
+            //once three cards are selected, on next space bar press delete rest of the list and fill it up again with all cards to start over
+            
         }
     }
 }
